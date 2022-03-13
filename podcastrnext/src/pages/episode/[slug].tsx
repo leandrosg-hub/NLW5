@@ -37,7 +37,7 @@ export default function Episode({ episode }: EpisodeProps) {
       </Head>
 
       <div className={styles.thumnailContainer}>
-        <Link href="/">
+        <Link href="/" passHref>
           <button type="button">
             <img src="/arrow-left.svg" alt="Voltar" />
           </button>
